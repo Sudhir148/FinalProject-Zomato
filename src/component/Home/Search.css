@@ -1,0 +1,54 @@
+.search{
+    height: 400px;
+    background-image: url(https://i.ibb.co/CMKccnR/food-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 400px;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    background-color: #ffe002;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 80px;
+    color: green;
+    animation: movelogo 20s infinite;
+
+}
+.logo>span{
+    margin-left: 31%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+@keyframes movelogo {
+    0% {margin-left: 45%;}
+    25% {margin-left: 40%;}
+    50% {margin-left: 47%;}
+    75% {margin-left: 40%;}
+    100% {margin-left: 47%;}
+}
+.heading{
+    font-size: 45px;
+    margin-left:29%;
+    margin-top:13% ;
+    position: absolute;
+    color: white;
+}
+.dropdown{
+    height: 60px;
+    width: 60%;
+    margin-left: 29%;
+    margin-top: 19%;
+    position: absolute;
+}
+select{
+    height: 60px;
+    width: 35%;
+}
+.SelectReas{
+    width: 50%;
+}
